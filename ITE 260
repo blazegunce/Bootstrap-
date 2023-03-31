@@ -1,0 +1,27 @@
+print("***Welcome to our BMI Calculator***");
+print(" **Please Enter your data below**");
+height = float(input("Enter your height in m: "));
+weight = float(input("Enter your weight in kg: "));
+BMI = weight/(height*height)
+print(f"Your BMI is {BMI}")
+if BMI <= 18.4:
+    print("You are underweight.")
+    print("Opps! You need to eat some foods.")
+elif BMI <= 24.9:
+    print("You are healthy.")
+    print("Wow! Nice Health.")
+elif BMI <= 29.9:
+    print("You are over weight.")
+    print("That's still fine.")
+elif BMI <= 34.9:
+    print("You are severly over weight.")
+    print("You really need to take a Diet.")
+elif BMI <=39.9:
+    print("You are obese.")
+    print("Yikes! Do you know what's the meaning of proper meal?")
+else:
+    print("You are severly obese.")
+    print("Ladies and Gentlement! We got Big Show here Live.")
+    
+print("***Thankyou for using our app***")
+print("     **I hope you enjoy!**")
